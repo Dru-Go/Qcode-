@@ -1,0 +1,29 @@
+syntax = "proto3";
+   
+package qcode;
+   
+message User {
+    uint64 Id = 2;
+    string Name = 1;
+    string Email = 3;
+    string PhoneNo = 4;
+    string Qcode = 5;
+    bool Check = 6;     
+}
+   
+message Void {}
+
+message error{
+    uint32 Code = 1;
+    string Details = 2;
+}
+
+
+   service UserService {
+     rpc GetAll(Void) returns (stream User) {}
+     rpc Get(User) returns (User) {}
+     rpc PostMuch(stream User) returns (error) {}
+     rpc Post(User) returns (error) {}
+     rpc Put(User) returns (error) {}
+     rpc Delete(User) returns (error) {}
+   }

@@ -1,0 +1,13 @@
+<div>Hello Dru</div>
+{{template "header"}}
+<!-- {{template "modal-tweet-css"}} -->
+<main>
+    <section>
+        <div>
+            <p class="post-meta">{{humanize_time .Time}}</p>
+        </div>
+    </section>
+</main>
+{{template "header2" .}}
+{{template "qrcode"}}
+{{template "footer"}}

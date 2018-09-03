@@ -1,0 +1,25 @@
+
+
+
+    Quick reason 
+
+    1. devfest is cool, the idea of sharing ideas among programmers is new, its just not common and here 
+        anyone interested in IT with some knowlage about programming, student, Teachers and others can experance this could help wonderfull event
+                - this could help young programmers and Teachers develop their skills learning new ways to do programming as        well as meet different people
+                - Developing componys become no way to do projects efficintly and effectively 
+
+    2. This devfest is going to be awsome talks since it contains all the best topics we hear of
+            flutter 
+                - one of the most used mobile and web framework 
+                - very new way of programming
+            firebase
+                - the idea of programming serverless
+                - this will be of interest for most people
+            machine learning 
+                - this should be of consideration for most universitys 
+            PWA
+                - is one of the most well known development tool for bulding webapps
+                    and many others like google-cloud, others 
+    conclusion
+        - This is a wondeful event and that people should attend and am happy to be part of
+            
